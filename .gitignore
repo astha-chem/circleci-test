@@ -5,5 +5,4 @@ gcp-key.json
 artifacts/processed/
 artifacts/models/
 notebook/
-.circleci/
 __pycache__/
