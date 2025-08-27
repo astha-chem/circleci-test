@@ -1,0 +1,9 @@
+venv/
+MLOPS_PROJECT_5.egg-info/
+logs/
+gcp-key.json
+artifacts/processed/
+artifacts/models/
+notebook/
+.circleci/
+__pycache__/
