@@ -27,6 +27,7 @@ jobs:
       - run:
           name: Build and Push Image
           command: |
+              RUN apt-get update && apt-get install -y docker.io
               docker build -t us-central1-docker.pkg.dev/$GOOGLE_PROJECT_ID/circleci-reg-repo/circleci-img:latest .
               docker push us-central1-docker.pkg.dev/$GOOGLE_PROJECT_ID/circleci-reg-repo/circleci-img:latest
 
