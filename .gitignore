@@ -3,6 +3,6 @@ MLOPS_PROJECT_5.egg-info/
 logs/
 gcp-key.json
 artifacts/processed/
-artifacts/models/
+*.png
 notebook/
 __pycache__/
